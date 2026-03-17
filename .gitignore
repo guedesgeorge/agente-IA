@@ -1,0 +1,14 @@
+# Segurança - NUNCA subir
+lexai/backend/.env
+lexai/backend/ANTHROPIC_API_KEY*
+lexai/backend/data/
+lexai/backend/chroma_db/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Backup
+*_backup.py

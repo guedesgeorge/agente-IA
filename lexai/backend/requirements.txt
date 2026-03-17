@@ -1,0 +1,20 @@
+fastapi==0.115.0
+uvicorn[standard]==0.30.0
+python-multipart==0.0.9
+
+# Anthropic SDK
+anthropic==0.34.0
+
+# Banco vetorial local
+chromadb==0.5.5
+
+# Embeddings multilíngues (roda local, gratuito)
+sentence-transformers==3.0.1
+
+# Extração de texto
+PyPDF2==3.0.1
+python-docx==1.1.2
+
+# Utilitários
+python-dotenv==1.0.1
+pydantic==2.8.0
