@@ -1,0 +1,10 @@
+{
+  "admin": {
+    "id": "admin",
+    "nome": "Administrador",
+    "email": "george.emannuelcarvalho@gmail.com",
+    "role": "admin",
+    "senha_hash": "fa6f0d8f154ba5a454b94f5dd4a496cf:053b4d1f45ea0add5ad1982cf35e7a135caa9aae9555064a7d35b4ef69b5a806",
+    "criado_em": "2026-03-14T16:47:37.304693"
+  }
+}
