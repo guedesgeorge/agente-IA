@@ -2,8 +2,9 @@ fastapi==0.115.0
 uvicorn[standard]==0.30.0
 python-multipart==0.0.9
 
-# Anthropic SDK
-anthropic==0.34.0
+# Anthropic SDK (versão estável sem bug de proxies)
+anthropic==0.20.0
+httpx==0.27.2
 
 # Banco vetorial local
 chromadb==0.5.5
