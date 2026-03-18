@@ -341,7 +341,7 @@ body{background:var(--bg);color:var(--text);font-family:'Cabinet Grotesk',sans-s
 <input type="file" id="file-input" accept=".pdf,.docx,.txt,.doc" multiple onchange="handleFileUpload(this)">
 
 <script>
-let backendUrl = localStorage.getItem('lexai_backend') || 'http://127.0.0.1:8000';
+let backendUrl = 'http://127.0.0.1:8000';
 let currentMode = 'consulta';
 let conversationHistory = [];
 let isLoading = false;
