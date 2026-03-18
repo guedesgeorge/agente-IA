@@ -2,13 +2,14 @@ fastapi==0.115.0
 uvicorn[standard]==0.30.0
 python-multipart==0.0.9
 
-# Anthropic SDK
-anthropic==0.34.0
+# Versões estáveis para evitar o erro de 'proxies'
+anthropic==0.20.0
+httpx==0.27.2
 
 # Banco vetorial local
 chromadb==0.5.5
 
-# Embeddings multilíngues (roda local, gratuito)
+# Embeddings multilíngues
 sentence-transformers==3.0.1
 
 # Extração de texto
